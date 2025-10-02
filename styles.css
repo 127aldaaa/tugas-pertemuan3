@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+}
+.title{
+  font-size: 60px;
+}
+.navbar-container {
+    display: flex;
+    padding: 20px 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size: small;
+}
+
+.brand-logo img{
+    height: 50px;
+}
+
+.nav-list ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+.content {
+    display: flex;
+    margin: 0 100px;
+    gap: 50px;
+    align-items: center;
+}
+
+.content-image img{
+    height: 220px;
+}
+#more-info-btn {
+    font-size:15px;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20;
+    border-radius: 5px;
+
+}
+
+aside {
+  position: absolute;
+  right: 30px;           
+  top:43%;
+  transform: translateY(-50%);
+}
+
+.social-media {
+  background: red;       /
+  padding: 15px 0;       
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.social-media ul {
+  list-style: none;
+  margin: 0;
+  padding: 0 5px;       
+  display: flex;
+  flex-direction: column;
+  gap: 1px;             
+  align-items: center;   
+  text-decoration: none;
+}
+
+.social-media ul li a {
+  color: white;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;           
+  height: 30px;
+  text-decoration: none;
+}
